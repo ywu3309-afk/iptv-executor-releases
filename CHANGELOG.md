@@ -1,7 +1,7 @@
-# 0.3.2
+# 0.3.3
 
-- Chinese IPTV Automation launcher combines Start, Stop, status, dashboard access and secure updates in one app.
-- The launcher checks the official GitHub release automatically and installs updates only after signature, version, size and SHA-256 verification.
-- Missing installation folders now offer a clear choice between locating moved data and creating a fresh installation after confirmed deletion.
-- Customer state is backed up and preserved during updates.
+- The local executor setup, quick-start guide and Chrome helper pages are fully Chinese, including live status and error messages.
+- Signed updates now accept the packaged RapidOCR runtime and one-click launcher, fixing upgrade_file_not_allowed on legacy 0.1.0 installations.
+- The unified Chinese launcher provides Start, Stop, status, dashboard access and secure updates in one app.
+- Updates install only after signature, version, size and SHA-256 verification, with customer state backed up and preserved.
 - Customer packages keep the protected runtime, protected browser assets and obfuscated Chrome extension without source maps.
