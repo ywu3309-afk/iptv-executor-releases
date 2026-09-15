@@ -1,7 +1,7 @@
-# 0.3.3
+# 0.3.4
 
-- The local executor setup, quick-start guide and Chrome helper pages are fully Chinese, including live status and error messages.
-- Signed updates now accept the packaged RapidOCR runtime and one-click launcher, fixing upgrade_file_not_allowed on legacy 0.1.0 installations.
-- The unified Chinese launcher provides Start, Stop, status, dashboard access and secure updates in one app.
-- Updates install only after signature, version, size and SHA-256 verification, with customer state backed up and preserved.
+- WhatsApp logout now closes the owned browser before cleaning LocalAuth data, preventing Windows EBUSY file-lock failures.
+- Logout and failed-session recovery rotate to a fresh isolated profile, so QR login can start even if an old database file is still releasing.
+- A serialized lifecycle gate prevents overlapping logout, reset and startup operations.
+- The dashboard explains how to recover from a failed WhatsApp session, while customer data and existing executor settings remain preserved during signed updates.
 - Customer packages keep the protected runtime, protected browser assets and obfuscated Chrome extension without source maps.
