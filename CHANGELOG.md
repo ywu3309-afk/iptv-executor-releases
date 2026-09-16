@@ -1,7 +1,9 @@
-# 0.3.12
+# 0.3.13
 
-- MEGA now requires a saved, read-only verified API key before automatic trial creation is shown as ready.
-- If MEGA creates an account but the immediate read-back is inconclusive, the task stays in review and the original account is recovered by ID without a second create.
+- The unified launcher now reads the registered executor version and synchronizes a stale outer launcher after a successful start.
+- Launcher replacement is staged safely when the old launcher is still open, then applied and reopened after that window closes.
+- MEGA requires a saved, read-only verified API key and recovers an inconclusive original account by ID without a second create.
+- When the original MEGA result has no account ID, extension 0.4.14 performs a read-only unique search by the original username and ownership marker before API verification.
 - A pending MEGA recovery blocks duplicate account creation until the original result is resolved.
 - The designated test contact keeps unlimited trials for LION, MEGA, DINO, TREX and STRONG, while ordinary customers remain limited to one trial per server.
 - Existing customer databases, settings, AI keys, server configuration and WhatsApp sessions remain preserved during update.
