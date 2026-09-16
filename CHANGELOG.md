@@ -1,6 +1,7 @@
-# 0.3.8
+# 0.3.9
 
 - Natural English requests such as "I need a one-day trial" and "I need to test MEGA now" now enter the correct trial flow.
+- Clear trial requests recognized on the customer computer cannot be suppressed by an older central classifier.
 - Model output that contains internal instructions or application metadata is rejected before it can reach WhatsApp.
 - The administration page now shows a safe, useful reason when a browser preflight fails, including extension, login, page, free-package and timeout problems.
 - A failed free preflight clearly states that no account was created and no credits or demo tickets were deducted.
