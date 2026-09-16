@@ -1,4 +1,4 @@
-# 0.3.13
+# 0.3.14
 
 - The unified launcher now reads the registered executor version and synchronizes a stale outer launcher after a successful start.
 - Launcher replacement is staged safely when the old launcher is still open, then applied and reopened after that window closes.
