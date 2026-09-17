@@ -8,6 +8,6 @@ Compare the file SHA-256 with `SHA256SUMS.txt`. The executor also verifies `rele
 
 ## Files
 
-- `IPTV-Windows-Executor-0.3.18.zip`: Windows package with the unified IPTV Automation launcher and safe updater.
-- `IPTV-Chrome-Extension-0.4.16.zip`: Chrome extension package.
+- `IPTV-Windows-Executor-0.3.19.zip`: Windows package with the unified IPTV Automation launcher and safe updater.
+- `IPTV-Chrome-Extension-0.4.17.zip`: Chrome extension package.
 - `release-manifest.json` and `release-manifest.sig`: machine-readable signed update metadata.

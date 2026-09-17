@@ -2,25 +2,25 @@
   "schema": 1,
   "product": "IPTV Windows Executor",
   "channel": "stable",
-  "version": "0.3.18",
-  "publishedAt": "2026-09-17T11:49:18.146Z",
+  "version": "0.3.19",
+  "publishedAt": "2026-09-17T21:34:11.122Z",
   "repository": "ywu3309-afk/iptv-executor-releases",
   "assets": [
     {
       "kind": "windows-executor",
-      "name": "IPTV-Windows-Executor-0.3.18.zip",
-      "version": "0.3.18",
-      "bytes": 27574907,
-      "sha256": "e48a4d9baf2136ee79d133d972c2dddd8e0b845dd2dbb9a6168b4cf64afba788",
-      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Windows-Executor-0.3.18.zip"
+      "name": "IPTV-Windows-Executor-0.3.19.zip",
+      "version": "0.3.19",
+      "bytes": 27581003,
+      "sha256": "b999a84d0365af0a5953e974b77e68f89926e3f68e7cc8c015fdf24e7c0108db",
+      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Windows-Executor-0.3.19.zip"
     },
     {
       "kind": "chrome-extension",
-      "name": "IPTV-Chrome-Extension-0.4.16.zip",
-      "version": "0.4.16",
-      "bytes": 76861,
-      "sha256": "fbfff87164005517bf958558c951fa0cd3d36c964459c949c2c3b0ba04397947",
-      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Chrome-Extension-0.4.16.zip"
+      "name": "IPTV-Chrome-Extension-0.4.17.zip",
+      "version": "0.4.17",
+      "bytes": 82810,
+      "sha256": "e51a5f4d0cb3f7ace90216e6efa2089018b201512934d523d7033fc065c4b802",
+      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Chrome-Extension-0.4.17.zip"
     }
   ]
 }
