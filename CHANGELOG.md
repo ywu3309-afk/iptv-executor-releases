@@ -1,11 +1,9 @@
-# 0.3.17
+# 0.3.18
 
-- Channel edits now require the customer to name one exact server: MEGA, LION, STRONG, DINO or TREX.
-- Multi-turn channel requests remember the chosen server and requested add, remove or only operation for 30 minutes.
-- Missing server, missing operation, multiple servers and accounts without an active trial perform no panel write.
-- Five live panel catalogues are bundled as a fast matching cache and refreshed whenever a current panel catalogue is inspected.
-- Exact account ownership and current selections are still read before saving, and every provider still verifies the saved result.
-- Combined movie and series categories require the complete panel category name.
+- Business Profile now provides one-click JSON export and import for moving customer business settings to another computer.
+- The backup restores prices, payment instructions, support details, player settings, five server templates and business images.
+- AI keys, panel credentials, WhatsApp sessions, customer chats and created-account passwords are excluded from the JSON backup.
+- The built-in IPTV knowledge engine can use each customer's current business profile with local Ollama or supported OpenAI-compatible providers.
 - Chrome extension 0.4.16 remains compatible; no extension update is required for this executor release.
-- Existing customer databases, settings, AI keys, server configuration and WhatsApp sessions remain preserved during update.
+- Existing customer databases, settings, AI keys, server configuration and WhatsApp sessions remain preserved during signed update.
 - Customer packages keep the protected runtime, protected browser assets and obfuscated Chrome extension without source maps.
