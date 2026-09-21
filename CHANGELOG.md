@@ -1,8 +1,6 @@
-# 0.3.23
+# 0.3.24
 
-- Clicking Start now creates a fresh installation automatically when the previously registered installation and customer data have been deleted.
-- A stale registration is archived before reinstalling; no existing folder or customer file is deleted.
-- If the registered folder still contains customer data, the launcher continues to use the protected recovery path and preserves that data.
-- The launcher completes startup as soon as the verified local wizard reports READY, uses a closed short connection for readiness probes, and unlocks after a bounded timeout.
-- Open Console and Refresh Status remain available during startup, and the launcher opens the local console after successful startup.
-- Existing customer databases, settings, AI keys, server configuration and WhatsApp sessions remain preserved during signed update or recovery.
+- Business welcome instructions are now used only as AI guidance and can no longer be sent directly to customers when a model fails.
+- The final WhatsApp delivery layer blocks internal prompt text, including already queued unsafe replies.
+- Duplicate non-empty text events from the same customer within 15 seconds are processed once, while different customers and separate media messages remain independent.
+- Existing customer databases, settings, AI keys, business profiles, server configuration and WhatsApp sessions remain preserved during signed update.
