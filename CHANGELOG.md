@@ -1,3 +1,8 @@
+# 0.3.26
+
+- 修正 0.3.25 安装包：同步 executor-manifest.json 里全部文件的哈希，更新不再报「安装包文件校验失败」。
+- 运行时仍是可读版（admin / chrome-bridge / online-update），STRONG 双域名与本机网关补丁保留。
+
 # 0.3.25
 
 - 运行时改为可维护源码：`admin.mjs`、`chrome-bridge.mjs`、`online-update-executor.mjs` 三个文件从混淆版换成可读、带注释的版本。
