@@ -1,3 +1,10 @@
+# 0.3.25
+
+- 运行时改为可维护源码：`admin.mjs`、`chrome-bridge.mjs`、`online-update-executor.mjs` 三个文件从混淆版换成可读、带注释的版本。
+- STRONG 面板同时支持旧域名 `8k.cms-only.ru` 和新域名 `8k.online-cms.ru`。
+- 本机大模型地址放开端口限制：不再只认 `127.0.0.1:11434`，任意本机端口 + `/v1` 均可，可直接接本地网关。
+- 发布校验改用新的 Ed25519 发布公钥；后续发布由本仓库签名。
+
 # 0.3.24
 
 - Business welcome instructions are now used only as AI guidance and can no longer be sent directly to customers when a model fails.
