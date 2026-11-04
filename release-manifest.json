@@ -3,7 +3,7 @@
   "product": "IPTV Windows Executor",
   "channel": "stable",
   "version": "0.3.27",
-  "publishedAt": "2026-11-04T18:05:21.312Z",
+  "publishedAt": "2026-11-04T18:10:31.594Z",
   "repository": "ywu3309-afk/iptv-executor-releases",
   "assets": [
     {
@@ -16,11 +16,11 @@
     },
     {
       "kind": "chrome-extension",
-      "name": "IPTV-Chrome-Extension-0.4.20-rebuilt.zip",
+      "name": "IPTV-Chrome-Extension-0.4.20.zip",
       "version": "0.4.20",
       "bytes": 62250,
       "sha256": "da07fda6eccbca9ac8d08dcba1a571ae7f487640295bb2f7cb3d17af06366590",
-      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Chrome-Extension-0.4.20-rebuilt.zip"
+      "url": "https://raw.githubusercontent.com/ywu3309-afk/iptv-executor-releases/main/IPTV-Chrome-Extension-0.4.20.zip"
     }
   ]
 }
