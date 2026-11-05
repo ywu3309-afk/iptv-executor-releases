@@ -1,3 +1,9 @@
+# 0.3.33
+
+- 开试用失败时记录「具体原因」：写进 `data/runtime-logs/trial-errors.log`，同时输出到运行日志（TRIAL_FAILURE …）。
+  不再只有 “No trial was created”；客户看到的文案不变。
+- 覆盖四个失败点：preflight（预检）、authorize（账号中心授权）、reserve（额度/重复）、create（建号）。
+
 # 0.3.32
 
 - MEGA 试用开号新增「官方 API 模式」：面板改版后脚本点不动「Create Subscription」，改为直接调 `megaott.net/api/v1` 建号，不再依赖浏览器点击。
