@@ -1,3 +1,10 @@
+# 0.3.36
+
+- 试用流程增加两处「原因记录」，覆盖之前查不到的两条静默分支：
+  - `stage=previous_state`：客户头上有「待复查」记录，直接回那句固定的复查文案；
+  - `stage=authorize_denied`：账号中心明确拒绝授权（不再只是笼统的 unavailable）。
+- 之前几次失败没有任何日志，是因为卡在这两条分支上，现在都会写进 `data/runtime-logs/trial-errors.log`。
+
 # 0.3.34
 
 - 修复 API 建号后「试用文案拼不出来」：`business_trial_template_incomplete`。
