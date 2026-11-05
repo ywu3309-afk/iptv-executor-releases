@@ -1,3 +1,9 @@
+# 0.3.47
+
+- 全局白名单改为从 \https://ultraiptvshop.com/whitelist.json\ 拉取（只存 SHA-256 哈希）。
+- 账号中心的 /downloads/whitelist.json 作为备用地址。
+- 每 10 分钟刷新一次；拉取失败退回本机配置，不影响接待。
+
 # 0.3.46
 
 - 白名单改为**全局**：名单放在账号中心 `downloads/whitelist.json`（只存 SHA-256 哈希，不暴露号码），
