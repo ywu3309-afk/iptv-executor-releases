@@ -1,3 +1,10 @@
+# 0.3.39
+
+- 修复 deepseek-v4.1 系列模型「思考模式没被关掉」：型号正则原来只认 `deepseek-v4` 和 `deepseek-v4-xxx`，不认 `deepseek-v4.1-flash`。
+  导致模型把预算花在内部推理上，出现空回答 / 超长响应 / `invalid_response`，然后退回本地规则。
+- AI 失败时会记录具体原因：运行日志里输出 `AI unavailable; using local rules | <原因>`，
+  并写入 `data/runtime-logs/ai-errors.log`，不再只有笼统一句话。
+
 # 0.3.38
 
 - 试用成功后自动补发两张图：价格表 + 推荐播放器（之前只发一张，而且发送失败）。
