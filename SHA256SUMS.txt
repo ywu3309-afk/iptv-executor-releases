@@ -1,2 +1,2 @@
-e0ff2850fca329acfdc70ac8f64c0e4b47ba24a15cca7b3c1eb8f1906037a0c3  IPTV-Windows-Executor-0.3.42.zip
+ba97236953c4ebe6b717e4874ab03840834d15f597bec74295e998d79ab0928c  IPTV-Windows-Executor-0.3.43.zip
 fc00019a9949f45083a0aa4fb6149ca11ec5a61bbd292b940d962beb14ace10f  IPTV-Chrome-Extension-0.4.20.zip
