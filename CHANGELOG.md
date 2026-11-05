@@ -1,3 +1,9 @@
+# 0.3.34
+
+- 修复 API 建号后「试用文案拼不出来」：`business_trial_template_incomplete`。
+  原因是 API 账号只带了播放域名、没有完整播放地址，文案里的 `{m3u_url}` 占位符取不到值。
+  现在会补上 `playbackServer`（`dns_link`），并据此生成 `get.php?...&type=m3u_plus` 播放地址。
+
 # 0.3.33
 
 - 开试用失败时记录「具体原因」：写进 `data/runtime-logs/trial-errors.log`，同时输出到运行日志（TRIAL_FAILURE …）。
