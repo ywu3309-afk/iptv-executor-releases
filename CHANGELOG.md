@@ -1,3 +1,8 @@
+# 0.3.48
+
+- 回复防刷屏：同一句话 10 分钟内不重复发送；同一客户 60 秒内最多 3 条回复。
+- 触发时日志记 REPLY_DUPLICATE_SKIPPED / REPLY_RATE_LIMITED，不再连发同一段提示。
+
 # 0.3.47
 
 - 全局白名单改为从 \https://ultraiptvshop.com/whitelist.json\ 拉取（只存 SHA-256 哈希）。
